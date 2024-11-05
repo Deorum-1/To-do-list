@@ -1,31 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Todo app</title>
-<!-- css link -->
- <link rel="stylesheet" href="style.css">
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  Todo
 
-  <!-- Add dynamic number --> items left
+  <div class="container">
 
-  All
-  Active 
-  Completed
+    <!-- header -->
+    <div class="header">
+      <div class="head">
+        Todo
+      </div>
 
-  Clear Completed
+      <!--  light and dark mode-->
+      <div class="light-mode">
+        <img src="./images/icon-moon.svg">
+      </div>
+    </div>
 
-  Drag and drop to reorder list
+    <!-- input header -->
+    <div class="input">
+      <input type="text">
+    </div>
+
+    <!-- lists -->
+    <div class="lists">
+      <ul>
+        <li>Read for 1hour</li>
+        <li>Sleep for 10hrs</li>
+      </ul>
+    </div>
+
+    <!-- footer -->
+    <div class="items">
+      <div class="items-number">
+        5 items left
+      </div>
+
+      <div class="status">
+        <div>
+          All
+        </div>
+
+        <div>
+          Active
+        </div>
+
+        <div>
+          Completed
+        </div>
+      </div>
+
+
+      <div class="clear">
+        Clear Completed
+      </div>
+    </div>
+
+    <div class="drag">
+      Drag and drop to reorder list
+    </div>
+  </div>
 
 
 
   <script src="script.js"></script>
 </body>
+
 </html>
